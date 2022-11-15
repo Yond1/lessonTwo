@@ -29,7 +29,7 @@ const App = () => {
         })}
       </nav>
       <Toolbar
-        filters={["All", "Websites", "Flayers", "Business Cards"]}
+        filters={filters}
         selected={state}
       />
     </>
