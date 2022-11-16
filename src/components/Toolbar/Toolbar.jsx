@@ -1,5 +1,5 @@
 import React from "react";
-import dataImage from "../../image/imgData";
+import dataImage from "../../image/DataImageToolbar";
 
 const Toolbar = ({ filters, selected }) => {
   return selected === "All" ? (
